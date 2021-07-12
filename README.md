@@ -15,3 +15,6 @@ export PATH=$PATH:~/bin/openapitools/
 
 openapi-generator-cli generate -i swagger.yaml -g python-flask -o . -s
 
+#specify library
+openapi-generator-cli author template -g java --library webclient
+
